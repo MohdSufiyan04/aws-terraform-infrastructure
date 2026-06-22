@@ -1,0 +1,16 @@
+# Terraform files that should never be in git
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Sensitive variable files
+*.tfvars.backup
+
+# SSH keys
+*.pem
